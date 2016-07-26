@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>gource</id>
+    <version>0.42</version>
+    <title>Gource</title>
+    <authors>Andrew Caudwell</authors>
+    <projectUrl>http://gource.io/</projectUrl>
+    <copyright>2009 Andrew Caudwell</copyright>
+    <licenseUrl>http://www.gnu.org/licenses/</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+	<packageSourceUrl>https://github.com/VonOx/chocolatey-gource</packageSourceUrl>
+    <projectSourceUrl>https://github.com/acaudwell/Gource</projectSourceUrl>
+    <docsUrl>https://github.com/acaudwell/Gource/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/acaudwell/Gource/issues</bugTrackerUrl>
+    <tags>gource vcs version control visualisation admin</tags>
+    <summary>Gource includes built-in log generation support for Git, Mercurial, Bazaar and SVN. Gource can also parse logs produced by several third party tools for CVS repositories.</summary>
+    <description>Software projects are displayed by Gource as an animated tree with the root directory of the project at its centre. Directories appear as branches with files as leaves. Developers can be seen working on the tree at the times they contributed to the project.</description>
+    <releaseNotes>* Fixed bzr log command when no start date was specified (chrisf).
+* Fixed hg log commit order when date range specified.
+* Fixed hg log command line on Windows.
+* Fixed parser bug in date range filtering code.
+	</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
