@@ -4,14 +4,14 @@ $ErrorActionPreference = 'Stop';
 
 $packageName= 'gource'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/acaudwell/Gource/releases/download/gource-0.42/gource-0.42-setup.exe'
+$url        = 'https://github.com/acaudwell/Gource/releases/download/gource-0.47/gource-0.47.win64-setup.exe'
 
 $packageArgs = @{
   packageName   = $packageName
   unzipLocation = $toolsDir
   fileType      = 'EXE'
   url           = $url
-  checksum      = 'FB81DDBB28BB3E65BE4CE0B76B6939B0D47093B485EB8AB86A88F05975C18BCD'
+  checksum      = 'ca666e9c9fc9f69bb4ee52ed3914982575c917986ca984cd18b5edcab9016385'
   checksumType  = 'sha256'
 
   silentArgs    = "/S"
