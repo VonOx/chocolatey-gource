@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>gource</id>
-    <version>0.47</version>
+    <version>0.51</version>
     <title>Gource</title>
     <authors>Andrew Caudwell</authors>
     <projectUrl>http://gource.io/</projectUrl>
